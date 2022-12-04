@@ -7,15 +7,15 @@
     <hr>
 <form>
     Nama * <br>
-    <input id="nama" type="text" required><br><br>
+    <input id="nama" type="text" placeholder="Masukan nama" required><br><br>
     Alamat * <br>
-    <textarea id="alamat" cols="30" rows="5" required></textarea><br><br>
+    <textarea id="alamat" cols="30" rows="5" placeholder="Masukan Alamat" required></textarea><br><br>
     No Telepon * <br>
-    <input id="telepon" type="text" minlength="8" pattern="\+62?(\d+\) + \(\d\)"> <br><br>
+    <input id="telepon" type="text" minlength="8" pattern="\+62?(\d+)+|\(\d+\)" placeholder="+62xxx"> <br><br>
     Email<br>
-    <input id="email" type="email"> <br><br>
+    <input id="email" type="email" placeholder="Masukan email"> <br><br>
     Umur <br>
-    <input id="umur" type="number" min="1"> <br><br>
+    <input id="umur" type="number" min="1" placeholder="Masukan umur"> <br><br>
     <button>Kirim</button>
 </form>
 </body>
