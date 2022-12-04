@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Form Validation</title>
+</head>
+<body>
+    <p align="center">Isilah Form Dibawah Ini !</p>
+    <hr>
+<form>
+    Nama * <br>
+    <input id="nama" type="text" required><br><br>
+    Alamat * <br>
+    <textarea id="alamat" cols="30" rows="5" required></textarea><br><br>
+    No Telepon * <br>
+    <input id="telepon" type="text" minlength="8" pattern="\+62?(\d+\) + \(\d\)"> <br><br>
+    Email<br>
+    <input id="email" type="email"> <br><br>
+    Umur <br>
+    <input id="umur" type="number" min="1"> <br><br>
+    <button>Kirim</button>
+</form>
+</body>
+</html>
